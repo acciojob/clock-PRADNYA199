@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let timeDisplay=document.getElementById("timer")
-lat currentTime=new Date();
+let currentTime=new Date();
 setInterval(
 	function(){
 		currentTime=new Date();
