@@ -4,8 +4,8 @@ lat currentTime=new Date();
 setInterval(
 	function(){
 		currentTime=new Date();
-		timeDisplay.innerHTML=currentTimeToLocalString()
+		timeDisplay.innerHTML=currentTimeToLocalString();
 		
 		
-	}
+	},10000
 )
