@@ -7,5 +7,5 @@ setInterval(
 		timeDisplay.innerHTML=currentTime.ToLocalString();
 		
 		
-	},10000
+	},1000
 )
