@@ -4,7 +4,7 @@ lat currentTime=new Date();
 setInterval(
 	function(){
 		currentTime=new Date();
-		timeDisplay.innerHTML=currentTimeToLocalString();
+		timeDisplay.innerHTML=currentTime.ToLocalString();
 		
 		
 	},10000
